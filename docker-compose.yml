@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+    micro-go-start:
+        image: us.gcr.io/${TARGET_PROJECT_ID}/${SERVICE_NAME}/${TARGET_ALIAS}:${TARGET_IMAGE_TAG}
+        build: .
+        container_name: micro_${NICKNAME}_${TARGET_ALIAS}
+        restart: unless-stopped
+        env_file:
+            - ".env.local.yml"
+        ports:
+            - ${TARGET_LOCAL_PORT}:${TARGET_REMOTE_PORT}

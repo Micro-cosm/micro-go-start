@@ -1,0 +1,16 @@
+{
+    "FdLocal":              false,
+    "FdVerbose":            false,
+    "FdBuildContext":       "go",
+    "FdNickname":           "go-start",
+    "FdServiceName":        "micro-go-start",
+    "FdSiteNickname":       "Mifedom",
+    "FdTargetAlias":        "local",
+    "FdTargetDomain":       "weja.us",
+    "FdTargetImageTag":     "latest",
+    "FdTargetLocalPort":    "5000",
+    "FdTargetLogLevel":     "INFO",
+    "FdTargetProjectId":    "weja-us",
+    "FdTargetRealm":        "too.fb.",
+    "FdTargetRemotePort":   "8080"
+}
